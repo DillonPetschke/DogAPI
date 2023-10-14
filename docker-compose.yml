@@ -1,0 +1,13 @@
+# @Author: Dillon Petschke
+# @Date:   2023-10-09
+
+
+version: "3"
+services:
+    new-dog-api:
+        build: .
+        command: bash -c "python3 code/dogapi/manage.py runserver 0.0.0.0:8000"
+        ports:
+            - "8000:8000"
+        volumes:
+            - ./code:/code
