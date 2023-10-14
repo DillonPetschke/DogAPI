@@ -1,5 +1,0 @@
-.ropeproject/*
-database-backup/*
-prod/logs/error.log
-.DS_Store
-frontend/*
